@@ -1,7 +1,7 @@
 # Gambas Form File 3.0
 
 { Form Form
-  MoveScaled(0,0,85,94)
+  MoveScaled(0,0,85,98)
   Font = Font["11"]
   Text = ("MICheckEXIF")
   Icon = Picture["micheckexif.png"]
@@ -64,5 +64,11 @@
     MoveScaled(53,1,25,4)
     Font = Font["12"]
     Text = ("Remove All")
+  }
+  { URLLabel1 URLLabel
+    MoveScaled(1,89,82,3)
+    Font = Font["Bold,9"]
+    Alignment = Align.Center
+    Text = ("Support MICheckEXIF")
   }
 }
