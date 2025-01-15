@@ -1,6 +1,6 @@
 ' Gambas class file
 
-' Copyright (C) 2004-2024 Murilo Gomes Julio
+' Copyright (C) 2004-2025 Murilo Gomes Julio
 ' SPDX-License-Identifier: GPL-2.0-only
 
 ' Mestre da Info
@@ -33,7 +33,7 @@ Public Sub btnInfo_Click()
     Wait 1
     
     For Each row As String In lstArquivos.Keys
-      Shell "exiftool \"" & row & "\"" Wait To sInfo
+      Shell "/usr/bin/exiftool \"" & row & "\"" Wait To sInfo
       
       a = Split(sInfo, gb.NewLine)
       
@@ -84,6 +84,11 @@ End
 
 Public Sub Form_Open()
   
+  If Exist("/usr/bin/exiftool") = False Then
+    Message.Error(("<b>libimage-exiftool-perl</b> was not found!"))
+    Quit
+  Endif
+  
   lstInfo.Columns.Count = 2
   lstInfo.Columns[0].Text = ("Name")
   lstInfo.Columns[0].Width = 100
@@ -103,7 +108,7 @@ Public Sub btnRemover_Click()
     For Each row As String In lstArquivos.Keys
       lblInfo.Text = Subst(("Removing data from &1..."), File.Name(row))
       Wait 1
-      Shell "exiftool -all= \"" & row & "\"" Wait To sInfo
+      Shell "/usr/bin/exiftool -all= \"" & row & "\"" Wait To sInfo
       
       If cboArquivoOriginal.Index = 0 Then 
         If Exist(row & "_original") Then 
@@ -134,7 +139,13 @@ Public Sub btnRemoverTodosItens_Click()
 End
 
 Public Sub URLLabel1_Click()
-
+  
   mnuApoie_Click
+  
+End
+
+Public Sub mnuCheckUpdate_Click()
+
+  Shell "xdg-open \"https://www.mestredainfo.com.br/2025/01/micheckexif.html\""
 
 End
