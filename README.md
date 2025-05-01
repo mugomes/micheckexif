@@ -4,7 +4,7 @@ MICheckExif checks and removes data from files through exiftool.
 
 ## Information
 
-- [Page MICheckExif](https://www.mestredainfo.com.br/p/softwares.html)
+- [Page MICheckExif](https://www.mestredainfo.com.br/p/micheckexif.html)
 
 ## License
 
