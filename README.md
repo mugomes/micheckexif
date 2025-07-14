@@ -1,17 +1,17 @@
-# MICheckExif
+# MiCheckExif
 
-MICheckExif checks and removes data from files through exiftool.
+MiCheckExif checks and removes data from files through exiftool.
 
 ## Information
 
-- [Page MICheckExif](https://www.mestredainfo.com.br/p/micheckexif.html)
+- [Page MiCheckExif](https://www.mugomes.com.br/2025/07/micheckexif.html)
 
 ## License
 
-The MICheckExif is provided under:
+The MiCheckExif is provided under:
 
 [SPDX-License-Identifier: GPL-2.0-only](https://spdx.org/licenses/GPL-2.0-only.html)
 
 Beign under the terms of the GNU General Public License version 2 only.
 
-All contributions to the MICheckExif are subject to this license.
+All contributions to the MiCheckExif are subject to this license.

@@ -3,7 +3,7 @@
 { Form Form
   MoveScaled(0,0,85,95)
   Font = Font["11"]
-  Text = ("MICheckEXIF")
+  Text = ("MiCheckEXIF")
   Icon = Picture["micheckexif.png"]
   Resizable = False
   { Menu1 Menu
@@ -14,12 +14,12 @@
     { Menu3 Menu
     }
     { mnuApoie Menu
-      Text = ("Support MICheckEXIF")
+      Text = ("Subscribers")
     }
     { Menu2 Menu
     }
     { mnuSobre Menu
-      Text = ("About MICheckEXIF")
+      Text = ("About MiCheckEXIF")
     }
   }
   { btnInfo Button

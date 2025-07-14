@@ -1,63 +1,70 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: micheckexif 3.18.0\n"
-"PO-Revision-Date: 2025-01-02 15:49 UTC\n"
-"Last-Translator: Mestre da Info <contatomestredainfo@gmail.com>\n"
+"Project-Id-Version: micheckexif 3.19.0\n"
+"PO-Revision-Date: 2025-07-14 17:41 UTC\n"
+"Last-Translator: Murilo Gomes <mugomesoficial@gmail.com>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: FMain.class:88
+#: FMain.class:87
 msgid "<b>libimage-exiftool-perl</b> was not found!"
 msgstr "<b>libimage-exiftool-perl<b> não foi encontrado!"
 
-#: FMain.form:30
+#: FMain.form:29
 msgid "About"
 msgstr "Sobre"
 
-#: FAbout.form:18 FMain.form:47
-msgid "About MICheckEXIF"
-msgstr "Sobre MICheckEXIF"
+#: FMain.form:46
+msgid "About MiCheckEXIF"
+msgstr "Sobre MiCheckEXIF"
 
-#: FMain.form:77
+#: FMain.form:76
 msgid "Add Files"
 msgstr "Adicionar arquivos"
 
-#: FMain.form:33
+#: FMain.form:32
 msgid "Check Update"
 msgstr "Verificar Atualizações"
 
-#: FMain.class:53
+#: FMain.class:52
 msgid "Completed!"
 msgstr "Concluído!"
 
-#: FMain.class:124
+#: FMain.class:123
 msgid "Data removed"
 msgstr "Dados removidos"
 
-#: FMain.class:122
+#: FMain.class:121
 msgid "File not changed"
 msgstr "Arquivo não alterado"
 
-#: FMain.form:54
+#: FMain.form:53
 msgid "Get Information"
 msgstr "Obtenha informações"
 
-#: FMain.class:31
+#: FMain.class:30
 msgid "Getting information..."
 msgstr "Obtendo informações..."
 
-#: .project:1 FMain.form:25
+# gb-ignore
+#: .project:1
 msgid "MICheckEXIF"
-msgstr "MICheckEXIF"
+msgstr ""
 
+# gb-ignore
+#: FMain.form:24
+msgid "MiCheckEXIF"
+msgstr ""
+
+# gb-ignore
 #: .project:2
 msgid "MICheckEXIF checks and removes data from files through exiftool.\nThe MICheckEXIF is under license GPL-2.0-only"
-msgstr "MICheckEXIF checks and removes data from files through exiftool.\nThe MICheckEXIF is under license GPL-2.0-only"
+msgstr ""
 
-#: FMain.class:93
+#: FMain.class:92
 msgid "Name"
 msgstr "Nome"
 
@@ -65,7 +72,7 @@ msgstr "Nome"
 msgid "No"
 msgstr "Não"
 
-#: FMain.form:83
+#: FMain.form:82
 msgid "Remove"
 msgstr "Remover"
 
@@ -73,31 +80,31 @@ msgstr "Remover"
 msgid "Remove All"
 msgstr "Remover Tudo"
 
-#: FMain.form:60
+#: FMain.form:59
 msgid "Remove Data"
 msgstr "Remover dados"
 
-#: FMain.form:89
+#: FMain.form:88
 msgid "Remove original file"
 msgstr "Remover arquivo original"
 
-#: FMain.class:109
+#: FMain.class:108
 msgid "Removing data from &1..."
 msgstr "Removendo dados de &1..."
 
-#: FMain.class:60
+#: FMain.class:59
 msgid "Select File"
 msgstr "Selecione o arquivo"
 
-#: FMain.form:40
-msgid "Support MICheckEXIF"
-msgstr "Apoie MICheckEXIF"
+#: FMain.form:39
+msgid "Subscribers"
+msgstr "Assinantes"
 
-#: FMain.class:95
+#: FMain.class:94
 msgid "Value"
 msgstr "Valor"
 
-#: FAbout.class:19
+#: FAbout.class:16
 msgid "Version:"
 msgstr "Versão:"
 
